@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ett enkel formulör</h1>
+    <form method="post" action="hrml5_1_behandlat.php">
+        <label for="text">First name</label>
+        <input id="text" type="text" name="MinText" size="25" maxlength="25" value="Startvarde">
+        <br><br>
+
+        <label for="infobox"></label>
+        <textarea name="MinArea" rows="5" cols="50">Startvarde</textarea>
+        <br><br>
+
+        <label for="paassword"></label>
+        <input type="password" name="MittLosenord" size="25" maxlength="25">
+
+        <br>
+
+        <label for="Ofylltkryss">Icke ifyllt kryss</label>
+        <input type="checkbox" id="Ofylltkryss" name="Ofylltkryss" value="Kryssad0" checked="checked">
+        <br>
+
+        <p>
+            <input type="radio" id="a1" name="grupp1" value="1" checked>
+            <label for="a1">alternativ 1</label>
+            <input type="radio" id="a2" name="grupp1" value="2">
+            <label for="a2">alternativ 2</label>
+            <input type="radio" name="grupp1" id="a3" value="3">
+            <label for="a3">alternativ 3</label>
+        </p>
+
+        <p>Exempel på listruta</p>
+        <select size="1" name="MinListruta">
+            <option>alternativ 1</option>
+            <option>alternativ 2</option>
+            <option>alternativ 3</option>
+            <option>alternativ 4</option>
+        </select>
+
+        <input type="submit" value="Submit">
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
